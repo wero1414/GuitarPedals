@@ -1,0 +1,57 @@
+12580806569841
+gkl_misc
+0197054201
+
+
+0
+2
+1
+gkl_misc
+AIF04ZPFC-01L
+
+
+0
+24
+24
+gkl_misc
+C_0201_0603Metric
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+capacitor
+0
+4
+2
+gkl_misc
+EVQP4
+
+
+0
+4
+4
+gkl_misc
+PTS_810_SMT_Switch
+
+
+0
+4
+2
+gkl_misc
+R_0201_0603Metric
+Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+resistor
+0
+4
+2
+gkl_misc
+TestPoint_Pad_D0.5mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+gkl_misc
+X40-stepper
+
+
+0
+8
+8
