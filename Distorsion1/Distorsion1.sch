@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Amplifier_Operational:TL082 U1
+L Distorsion1-rescue:TL082-Amplifier_Operational U1
 U 3 1 5ED7479B
 P 2530 1340
 F 0 "U1" H 2488 1386 50  0000 L CNN
@@ -26,7 +26,7 @@ F 4 "TL082IPT" H 2530 1340 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Jack-DC J1
+L Distorsion1-rescue:Jack-DC-Connector J1
 U 1 1 5ED8289C
 P 1160 1355
 F 0 "J1" H 1217 1680 50  0000 C CNN
@@ -38,7 +38,7 @@ F 4 "KLDX-0202-BC" H 1160 1355 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR01
+L Distorsion1-rescue:+12V-power #PWR01
 U 1 1 5ED8C369
 P 1745 1090
 F 0 "#PWR01" H 1745 940 50  0001 C CNN
@@ -53,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	1745 1255 1745 1090
 $Comp
-L power:GND #PWR02
+L Distorsion1-rescue:GND-power #PWR02
 U 1 1 5ED8DA6B
 P 1745 1630
 F 0 "#PWR02" H 1745 1380 50  0001 C CNN
@@ -72,7 +72,7 @@ Wire Wire Line
 Wire Wire Line
 	2430 965  2430 1040
 $Comp
-L Device:R R8
+L Distorsion1-rescue:R-Device R8
 U 1 1 5ED98E74
 P 3175 1180
 F 0 "R8" H 3245 1226 50  0000 L CNN
@@ -83,7 +83,7 @@ F 3 "~" H 3175 1180 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L Distorsion1-rescue:R-Device R9
 U 1 1 5ED994B2
 P 3175 1565
 F 0 "R9" H 3245 1611 50  0000 L CNN
@@ -96,7 +96,7 @@ $EndComp
 Wire Wire Line
 	3175 1330 3175 1375
 $Comp
-L power:GND #PWR09
+L Distorsion1-rescue:GND-power #PWR09
 U 1 1 5ED8E931
 P 2430 1715
 F 0 "#PWR09" H 2430 1465 50  0001 C CNN
@@ -107,7 +107,7 @@ F 3 "" H 2430 1715 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L Distorsion1-rescue:GND-power #PWR015
 U 1 1 5ED9C0B7
 P 3175 1775
 F 0 "#PWR015" H 3175 1525 50  0001 C CNN
@@ -120,7 +120,7 @@ $EndComp
 Wire Wire Line
 	3175 1775 3175 1715
 $Comp
-L power:+12V #PWR08
+L Distorsion1-rescue:+12V-power #PWR08
 U 1 1 5ED9350A
 P 2430 965
 F 0 "#PWR08" H 2430 815 50  0001 C CNN
@@ -131,7 +131,7 @@ F 3 "" H 2430 965 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR014
+L Distorsion1-rescue:+12V-power #PWR014
 U 1 1 5ED9D85B
 P 3175 970
 F 0 "#PWR014" H 3175 820 50  0001 C CNN
@@ -151,7 +151,7 @@ Connection ~ 3175 1375
 Wire Wire Line
 	3175 1375 3175 1415
 $Comp
-L power:+6V #PWR017
+L Distorsion1-rescue:+6V-power #PWR017
 U 1 1 5EDA13BF
 P 3540 975
 F 0 "#PWR017" H 3540 825 50  0001 C CNN
@@ -162,7 +162,7 @@ F 3 "" H 3540 975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C1
+L Distorsion1-rescue:CP1_Small-Device C1
 U 1 1 5EDCFD93
 P 2075 1350
 F 0 "C1" H 2166 1396 50  0000 L CNN
@@ -174,7 +174,7 @@ F 4 "293D476X9025E2TE3" H 2075 1350 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR04
+L Distorsion1-rescue:+12V-power #PWR04
 U 1 1 5EDD0D8D
 P 2075 1030
 F 0 "#PWR04" H 2075 880 50  0001 C CNN
@@ -187,7 +187,7 @@ $EndComp
 Wire Wire Line
 	2075 1030 2075 1250
 $Comp
-L power:GND #PWR05
+L Distorsion1-rescue:GND-power #PWR05
 U 1 1 5EDD3194
 P 2075 1725
 F 0 "#PWR05" H 2075 1475 50  0001 C CNN
@@ -200,7 +200,7 @@ $EndComp
 Wire Wire Line
 	2075 1725 2075 1450
 $Comp
-L Device:LED D3
+L Distorsion1-rescue:LED-Device D3
 U 1 1 5EEDE03A
 P 4200 1160
 F 0 "D3" V 4239 1042 50  0000 R CNN
@@ -211,7 +211,7 @@ F 3 "~" H 4200 1160 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R10
+L Distorsion1-rescue:R-Device R10
 U 1 1 5EEE103C
 P 4200 1510
 F 0 "R10" H 4130 1464 50  0000 R CNN
@@ -224,7 +224,7 @@ $EndComp
 Wire Wire Line
 	4200 1310 4200 1360
 $Comp
-L power:GND #PWR019
+L Distorsion1-rescue:GND-power #PWR019
 U 1 1 5EEE43E8
 P 4200 1775
 F 0 "#PWR019" H 4200 1525 50  0001 C CNN
@@ -237,7 +237,7 @@ $EndComp
 Wire Wire Line
 	4200 1775 4200 1660
 $Comp
-L power:+12V #PWR018
+L Distorsion1-rescue:+12V-power #PWR018
 U 1 1 5EEE7291
 P 4200 955
 F 0 "#PWR018" H 4200 805 50  0001 C CNN
@@ -250,7 +250,7 @@ $EndComp
 Wire Wire Line
 	4200 955  4200 1010
 $Comp
-L Device:LED D6
+L Distorsion1-rescue:LED-Device D6
 U 1 1 5EDE8659
 P 4845 1140
 F 0 "D6" V 4884 1022 50  0000 R CNN
@@ -261,7 +261,7 @@ F 3 "~" H 4845 1140 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R11
+L Distorsion1-rescue:R-Device R11
 U 1 1 5EDE8663
 P 5750 1455
 F 0 "R11" H 5680 1409 50  0000 R CNN
@@ -272,7 +272,7 @@ F 3 "~" H 5750 1455 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0101
+L Distorsion1-rescue:GND-power #PWR0101
 U 1 1 5EDE866E
 P 5750 1720
 F 0 "#PWR0101" H 5750 1470 50  0001 C CNN
@@ -285,7 +285,7 @@ $EndComp
 Wire Wire Line
 	5750 1720 5750 1605
 $Comp
-L power:+12V #PWR0102
+L Distorsion1-rescue:+12V-power #PWR0102
 U 1 1 5EDE8679
 P 4595 950
 F 0 "#PWR0102" H 4595 800 50  0001 C CNN
@@ -319,19 +319,19 @@ Wire Wire Line
 Wire Wire Line
 	5750 1190 5605 1190
 $Comp
-L Connector:Barrel_Jack_MountingPin J3
+L Distorsion1-rescue:Barrel_Jack_MountingPin-Connector J3
 U 1 1 5EE03F35
 P 9960 3990
 F 0 "J3" H 9730 3954 50  0000 R CNN
 F 1 "OUT" H 9730 3863 50  0000 R CNN
-F 2 "SamacSys_Parts:NYS2162U" H 10010 3950 50  0001 C CNN
+F 2 "Distorsion1:NYS2162U" H 10010 3950 50  0001 C CNN
 F 3 "~" H 10010 3950 50  0001 C CNN
 F 4 "NYS2162-U" H 9960 3990 50  0001 C CNN "manf#"
 	1    9960 3990
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L Distorsion1-rescue:GND-power #PWR024
 U 1 1 5EE07C66
 P 9515 4225
 F 0 "#PWR024" H 9515 3975 50  0001 C CNN
@@ -346,7 +346,7 @@ Wire Wire Line
 Wire Wire Line
 	9515 4090 9660 4090
 $Comp
-L Device:R R5
+L Distorsion1-rescue:R-Device R5
 U 1 1 5EE19AE5
 P 6090 3195
 F 0 "R5" V 6005 3205 50  0000 C CNN
@@ -357,7 +357,7 @@ F 3 "~" H 6090 3195 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C8
+L Distorsion1-rescue:C_Small-Device C8
 U 1 1 5EE1A1D6
 P 6075 3740
 F 0 "C8" V 6180 3740 50  0000 C CNN
@@ -368,7 +368,7 @@ F 3 "~" H 6075 3740 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R6
+L Distorsion1-rescue:R-Device R6
 U 1 1 5EE1A9C1
 P 6420 3930
 F 0 "R6" H 6300 3865 50  0000 C CNN
@@ -379,7 +379,7 @@ F 3 "~" H 6420 3930 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_POT RV3
+L Distorsion1-rescue:R_POT-Device RV3
 U 1 1 5EE1AFD0
 P 6420 3470
 F 0 "RV3" H 6351 3516 50  0000 R CNN
@@ -390,7 +390,7 @@ F 3 "~" H 6420 3470 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C9
+L Distorsion1-rescue:C_Small-Device C9
 U 1 1 5EE26A33
 P 6420 3030
 F 0 "C9" H 6512 3076 50  0000 L CNN
@@ -401,7 +401,7 @@ F 3 "~" H 6420 3030 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L Distorsion1-rescue:GND-power #PWR021
 U 1 1 5EE270F4
 P 6215 2815
 F 0 "#PWR021" H 6215 2565 50  0001 C CNN
@@ -427,7 +427,7 @@ Wire Wire Line
 	6420 3780 6420 3740
 Connection ~ 6420 3740
 $Comp
-L power:GND #PWR022
+L Distorsion1-rescue:GND-power #PWR022
 U 1 1 5EE3147C
 P 6420 4140
 F 0 "#PWR022" H 6420 3890 50  0001 C CNN
@@ -451,7 +451,7 @@ Wire Wire Line
 Text Notes 5895 2615 0    50   ~ 0
 Tone Control
 $Comp
-L Device:R_POT RV5
+L Distorsion1-rescue:R_POT-Device RV5
 U 1 1 5EDE9830
 P 8270 3840
 F 0 "RV5" H 8201 3886 50  0000 R CNN
@@ -462,7 +462,7 @@ F 3 "~" H 8270 3840 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L Distorsion1-rescue:GND-power #PWR023
 U 1 1 5EDFD2FF
 P 8270 4160
 F 0 "#PWR023" H 8270 3910 50  0001 C CNN
@@ -504,7 +504,7 @@ Wire Wire Line
 Wire Wire Line
 	3325 4925 3325 5030
 $Comp
-L power:GND #PWR0103
+L Distorsion1-rescue:GND-power #PWR0103
 U 1 1 5FC74459
 P 3325 5030
 F 0 "#PWR0103" H 3325 4780 50  0001 C CNN
@@ -518,7 +518,7 @@ Connection ~ 3325 4670
 Wire Wire Line
 	3325 4725 3325 4670
 $Comp
-L Device:C_Small C4
+L Distorsion1-rescue:C_Small-Device C4
 U 1 1 5FC6C037
 P 3325 4825
 F 0 "C4" H 3210 4775 50  0000 C CNN
@@ -548,7 +548,7 @@ Wire Wire Line
 Wire Wire Line
 	3890 4060 3890 4215
 $Comp
-L Device:R_POT RV1
+L Distorsion1-rescue:R_POT-Device RV1
 U 1 1 5FBE46EF
 P 3325 4435
 F 0 "RV1" V 3275 4680 50  0000 R CNN
@@ -559,7 +559,7 @@ F 3 "~" H 3325 4435 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Distorsion1-rescue:R-Device R4
 U 1 1 5FC32941
 P 3580 4215
 F 0 "R4" V 3373 4215 50  0000 C CNN
@@ -570,7 +570,7 @@ F 3 "~" H 3580 4215 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R3
+L Distorsion1-rescue:R-Device R3
 U 1 1 5ED95416
 P 3245 3355
 F 0 "R3" V 3038 3355 50  0000 C CNN
@@ -590,7 +590,7 @@ Connection ~ 3890 4490
 Wire Wire Line
 	2300 3845 2300 3780
 $Comp
-L power:GND #PWR06
+L Distorsion1-rescue:GND-power #PWR06
 U 1 1 5EDB4AA6
 P 2300 3845
 F 0 "#PWR06" H 2300 3595 50  0001 C CNN
@@ -603,7 +603,7 @@ $EndComp
 Wire Wire Line
 	2300 3480 2300 3355
 $Comp
-L Device:R R1
+L Distorsion1-rescue:R-Device R1
 U 1 1 5EDB0F98
 P 2300 3630
 F 0 "R1" H 2370 3676 50  0000 L CNN
@@ -648,7 +648,7 @@ Connection ~ 4695 4060
 Wire Wire Line
 	4340 4060 4695 4060
 $Comp
-L Device:C_Small C5
+L Distorsion1-rescue:C_Small-Device C5
 U 1 1 5EE4162A
 P 4240 4060
 F 0 "C5" V 4185 4210 50  0000 R CNN
@@ -661,7 +661,7 @@ $EndComp
 Wire Wire Line
 	3555 3760 3555 3665
 $Comp
-L power:GND #PWR016
+L Distorsion1-rescue:GND-power #PWR016
 U 1 1 5EE2C41A
 P 3555 3760
 F 0 "#PWR016" H 3555 3510 50  0001 C CNN
@@ -692,7 +692,7 @@ Wire Wire Line
 Wire Wire Line
 	4240 3735 4240 3655
 $Comp
-L Device:R_POT RV2
+L Distorsion1-rescue:R_POT-Device RV2
 U 1 1 5EDE8583
 P 4240 3885
 F 0 "RV2" V 4190 4130 50  0000 R CNN
@@ -713,7 +713,7 @@ Wire Wire Line
 Wire Wire Line
 	3555 3465 3555 3355
 $Comp
-L Device:C_Small C3
+L Distorsion1-rescue:C_Small-Device C3
 U 1 1 5EDDBD2F
 P 3555 3565
 F 0 "C3" H 3440 3515 50  0000 C CNN
@@ -724,7 +724,7 @@ F 3 "~" H 3555 3565 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C2
+L Distorsion1-rescue:C_Small-Device C2
 U 1 1 5ED89C24
 P 2520 3355
 F 0 "C2" V 2291 3355 50  0000 C CNN
@@ -735,7 +735,7 @@ F 3 "~" H 2520 3355 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L Distorsion1-rescue:R-Device R2
 U 1 1 5EDA2255
 P 2985 3065
 F 0 "R2" H 3055 3111 50  0000 L CNN
@@ -746,7 +746,7 @@ F 3 "~" H 2985 3065 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+6V #PWR011
+L Distorsion1-rescue:+6V-power #PWR011
 U 1 1 5EDA7A9C
 P 2985 2825
 F 0 "#PWR011" H 2985 2675 50  0001 C CNN
@@ -776,7 +776,7 @@ Wire Wire Line
 Wire Wire Line
 	4845 3215 4695 3215
 $Comp
-L Device:C_Small C7
+L Distorsion1-rescue:C_Small-Device C7
 U 1 1 5EEA0806
 P 4945 3215
 F 0 "C7" V 4716 3215 50  0000 C CNN
@@ -805,7 +805,7 @@ Overdrive
 Wire Wire Line
 	1985 3660 1985 3505
 $Comp
-L power:GND #PWR03
+L Distorsion1-rescue:GND-power #PWR03
 U 1 1 5EE01F05
 P 1985 3660
 F 0 "#PWR03" H 1985 3410 50  0001 C CNN
@@ -816,7 +816,7 @@ F 3 "" H 1985 3660 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR020
+L Distorsion1-rescue:GND-power #PWR020
 U 1 1 5EDDE0D5
 P 5345 3980
 F 0 "#PWR020" H 5345 3730 50  0001 C CNN
@@ -840,7 +840,7 @@ Wire Wire Line
 Wire Wire Line
 	5395 3635 5395 3455
 $Comp
-L Device:D_Small D5
+L Distorsion1-rescue:D_Small-Device D5
 U 1 1 5EDD7029
 P 5395 3735
 F 0 "D5" V 5455 3685 50  0000 C CNN
@@ -852,7 +852,7 @@ F 4 "1N4148X-TP" H 5395 3735 50  0001 C CNN "manf#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D4
+L Distorsion1-rescue:D_Small-Device D4
 U 1 1 5EDD701F
 P 5290 3740
 F 0 "D4" V 5220 3690 50  0000 C CNN
@@ -878,7 +878,7 @@ Connection ~ 3890 4380
 Wire Wire Line
 	4140 4380 3890 4380
 $Comp
-L Device:D_Small D2
+L Distorsion1-rescue:D_Small-Device D2
 U 1 1 5EDC43EE
 P 4245 4490
 F 0 "D2" H 4160 4530 50  0000 C CNN
@@ -905,7 +905,7 @@ Wire Wire Line
 Wire Wire Line
 	4090 3885 3890 3885
 $Comp
-L Device:D_Small D1
+L Distorsion1-rescue:D_Small-Device D1
 U 1 1 5EDB2C53
 P 4240 4380
 F 0 "D1" H 4325 4345 50  0000 C CNN
@@ -917,7 +917,7 @@ F 4 "1N4148X-TP" H 4240 4380 50  0001 C CNN "manf#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP1_Small C6
+L Distorsion1-rescue:CP1_Small-Device C6
 U 1 1 5ED8BDA6
 P 4940 3455
 F 0 "C6" V 4810 3405 50  0000 L CNN
@@ -929,19 +929,19 @@ F 4 "293D105X0020A2TE3" H 4940 3455 50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Barrel_Jack_MountingPin J2
+L Distorsion1-rescue:Barrel_Jack_MountingPin-Connector J2
 U 1 1 5ED87E3F
 P 740 3405
 F 0 "J2" H 797 3722 50  0000 C CNN
 F 1 "IN" H 797 3631 50  0000 C CNN
-F 2 "SamacSys_Parts:NYS2162U" H 790 3365 50  0001 C CNN
+F 2 "Distorsion1:NYS2162U" H 790 3365 50  0001 C CNN
 F 3 "~" H 790 3365 50  0001 C CNN
 F 4 "NYS2162-U" H 740 3405 50  0001 C CNN "manf#"
 	1    740  3405
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL082 U1
+L Distorsion1-rescue:TL082-Amplifier_Operational U1
 U 1 1 5ED754E2
 P 4280 3455
 F 0 "U1" H 4280 3822 50  0000 C CNN
@@ -954,7 +954,7 @@ F 4 "TL082IPT" H 4280 3455 50  0001 C CNN "manf#"
 $EndComp
 Connection ~ 5395 3455
 $Comp
-L Amplifier_Operational:TL082 U1
+L Distorsion1-rescue:TL082-Amplifier_Operational U1
 U 2 1 5FBFF2A8
 P 7520 3565
 F 0 "U1" H 7520 3932 50  0000 C CNN
@@ -980,7 +980,7 @@ Connection ~ 5775 3455
 Wire Wire Line
 	5775 3455 5775 3740
 $Comp
-L Device:R R7
+L Distorsion1-rescue:R-Device R7
 U 1 1 5FB9D050
 P 6780 3470
 F 0 "R7" V 6573 3470 50  0000 C CNN
