@@ -68,30 +68,6 @@ Wire Wire Line
 Wire Wire Line
 	3730 965  3730 1040
 $Comp
-L Distorsion1-rescue:R-Device R8
-U 1 1 5ED98E74
-P 4475 1180
-F 0 "R8" H 4545 1226 50  0000 L CNN
-F 1 "27K" H 4545 1135 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4405 1180 50  0001 C CNN
-F 3 "~" H 4475 1180 50  0001 C CNN
-	1    4475 1180
-	1    0    0    -1  
-$EndComp
-$Comp
-L Distorsion1-rescue:R-Device R9
-U 1 1 5ED994B2
-P 4475 1565
-F 0 "R9" H 4545 1611 50  0000 L CNN
-F 1 "27K" H 4545 1520 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4405 1565 50  0001 C CNN
-F 3 "~" H 4475 1565 50  0001 C CNN
-	1    4475 1565
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4475 1330 4475 1375
-$Comp
 L Distorsion1-rescue:GND-power #PWR09
 U 1 1 5ED8E931
 P 3730 1715
@@ -102,19 +78,6 @@ F 3 "" H 3730 1715 50  0001 C CNN
 	1    3730 1715
 	1    0    0    -1  
 $EndComp
-$Comp
-L Distorsion1-rescue:GND-power #PWR015
-U 1 1 5ED9C0B7
-P 4475 1775
-F 0 "#PWR015" H 4475 1525 50  0001 C CNN
-F 1 "GND" H 4480 1602 50  0000 C CNN
-F 2 "" H 4475 1775 50  0001 C CNN
-F 3 "" H 4475 1775 50  0001 C CNN
-	1    4475 1775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4475 1775 4475 1715
 $Comp
 L Distorsion1-rescue:+12V-power #PWR08
 U 1 1 5ED9350A
@@ -127,124 +90,43 @@ F 3 "" H 3730 965 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Distorsion1-rescue:+12V-power #PWR014
-U 1 1 5ED9D85B
-P 4475 970
-F 0 "#PWR014" H 4475 820 50  0001 C CNN
-F 1 "+12V" H 4490 1143 50  0000 C CNN
-F 2 "" H 4475 970 50  0001 C CNN
-F 3 "" H 4475 970 50  0001 C CNN
-	1    4475 970 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4475 970  4475 1030
-Wire Wire Line
-	4475 1375 4840 1375
-Wire Wire Line
-	4840 1375 4840 975 
-Connection ~ 4475 1375
-Wire Wire Line
-	4475 1375 4475 1415
-$Comp
-L Distorsion1-rescue:+6V-power #PWR017
-U 1 1 5EDA13BF
-P 4840 975
-F 0 "#PWR017" H 4840 825 50  0001 C CNN
-F 1 "+6V" H 4855 1148 50  0000 C CNN
-F 2 "" H 4840 975 50  0001 C CNN
-F 3 "" H 4840 975 50  0001 C CNN
-	1    4840 975 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Distorsion1-rescue:CP1_Small-Device C1
 U 1 1 5EDCFD93
-P 3375 1350
-F 0 "C1" H 3466 1396 50  0000 L CNN
-F 1 "47uF" H 3466 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3375 1350 50  0001 C CNN
-F 3 "~" H 3375 1350 50  0001 C CNN
-F 4 "293D476X9025E2TE3" H 3375 1350 50  0001 C CNN "manf#"
-	1    3375 1350
+P 3271 1270
+F 0 "C1" H 3362 1316 50  0000 L CNN
+F 1 "47uF" H 3362 1225 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3271 1270 50  0001 C CNN
+F 3 "~" H 3271 1270 50  0001 C CNN
+F 4 "293D476X9025E2TE3" H 3271 1270 50  0001 C CNN "manf#"
+	1    3271 1270
 	1    0    0    -1  
 $EndComp
 $Comp
 L Distorsion1-rescue:+12V-power #PWR04
 U 1 1 5EDD0D8D
-P 3375 1030
-F 0 "#PWR04" H 3375 880 50  0001 C CNN
-F 1 "+12V" H 3390 1203 50  0000 C CNN
-F 2 "" H 3375 1030 50  0001 C CNN
-F 3 "" H 3375 1030 50  0001 C CNN
-	1    3375 1030
+P 3271 950
+F 0 "#PWR04" H 3271 800 50  0001 C CNN
+F 1 "+12V" H 3286 1123 50  0000 C CNN
+F 2 "" H 3271 950 50  0001 C CNN
+F 3 "" H 3271 950 50  0001 C CNN
+	1    3271 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3375 1030 3375 1250
+	3271 950  3271 1170
 $Comp
 L Distorsion1-rescue:GND-power #PWR05
 U 1 1 5EDD3194
-P 3375 1725
-F 0 "#PWR05" H 3375 1475 50  0001 C CNN
-F 1 "GND" H 3380 1552 50  0000 C CNN
-F 2 "" H 3375 1725 50  0001 C CNN
-F 3 "" H 3375 1725 50  0001 C CNN
-	1    3375 1725
+P 3271 1645
+F 0 "#PWR05" H 3271 1395 50  0001 C CNN
+F 1 "GND" H 3276 1472 50  0000 C CNN
+F 2 "" H 3271 1645 50  0001 C CNN
+F 3 "" H 3271 1645 50  0001 C CNN
+	1    3271 1645
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3375 1725 3375 1450
-$Comp
-L Distorsion1-rescue:LED-Device D3
-U 1 1 5EEDE03A
-P 5500 1160
-F 0 "D3" V 5539 1042 50  0000 R CNN
-F 1 "ON" V 5448 1042 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 1160 50  0001 C CNN
-F 3 "~" H 5500 1160 50  0001 C CNN
-	1    5500 1160
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Distorsion1-rescue:R-Device R10
-U 1 1 5EEE103C
-P 5500 1510
-F 0 "R10" H 5430 1464 50  0000 R CNN
-F 1 "1K" H 5430 1555 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5430 1510 50  0001 C CNN
-F 3 "~" H 5500 1510 50  0001 C CNN
-	1    5500 1510
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5500 1310 5500 1360
-$Comp
-L Distorsion1-rescue:GND-power #PWR019
-U 1 1 5EEE43E8
-P 5500 1775
-F 0 "#PWR019" H 5500 1525 50  0001 C CNN
-F 1 "GND" H 5505 1602 50  0000 C CNN
-F 2 "" H 5500 1775 50  0001 C CNN
-F 3 "" H 5500 1775 50  0001 C CNN
-	1    5500 1775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 1775 5500 1660
-$Comp
-L Distorsion1-rescue:+12V-power #PWR018
-U 1 1 5EEE7291
-P 5500 955
-F 0 "#PWR018" H 5500 805 50  0001 C CNN
-F 1 "+12V" H 5515 1128 50  0000 C CNN
-F 2 "" H 5500 955 50  0001 C CNN
-F 3 "" H 5500 955 50  0001 C CNN
-	1    5500 955 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 955  5500 1010
+	3271 1645 3271 1370
 $Comp
 L Distorsion1-rescue:LED-Device D6
 U 1 1 5EDE8659
@@ -971,47 +853,6 @@ Wire Wire Line
 	1425 1205 1425 1040
 Wire Wire Line
 	1140 1205 1425 1205
-$Comp
-L Connector:Conn_01x02_Female Vin1
-U 1 1 60C48607
-P 2500 1300
-F 0 "Vin1" H 2528 1276 50  0000 L CNN
-F 1 "Con_female" H 2528 1185 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2500 1300 50  0001 C CNN
-F 3 "~" H 2500 1300 50  0001 C CNN
-	1    2500 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR0104
-U 1 1 60D10C88
-P 2100 1100
-F 0 "#PWR0104" H 2100 950 50  0001 C CNN
-F 1 "+12V" H 2115 1273 50  0000 C CNN
-F 2 "" H 2100 1100 50  0001 C CNN
-F 3 "" H 2100 1100 50  0001 C CNN
-	1    2100 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 60D10DD8
-P 2100 1600
-F 0 "#PWR0105" H 2100 1350 50  0001 C CNN
-F 1 "GND" H 2105 1427 50  0000 C CNN
-F 2 "" H 2100 1600 50  0001 C CNN
-F 3 "" H 2100 1600 50  0001 C CNN
-	1    2100 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 1600 2100 1400
-Wire Wire Line
-	2100 1400 2300 1400
-Wire Wire Line
-	2300 1300 2100 1300
-Wire Wire Line
-	2100 1300 2100 1100
 Connection ~ 4695 4060
 $Comp
 L Distorsion1-rescue:D_Small-Device D1
@@ -1048,4 +889,122 @@ Wire Notes Line
 	4760 4560 4760 4290
 Wire Wire Line
 	4695 4060 4695 4380
+Wire Wire Line
+	5500 955  5500 1010
+$Comp
+L Distorsion1-rescue:+12V-power #PWR018
+U 1 1 5EEE7291
+P 5500 955
+F 0 "#PWR018" H 5500 805 50  0001 C CNN
+F 1 "+12V" H 5515 1128 50  0000 C CNN
+F 2 "" H 5500 955 50  0001 C CNN
+F 3 "" H 5500 955 50  0001 C CNN
+	1    5500 955 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1775 5500 1660
+$Comp
+L Distorsion1-rescue:GND-power #PWR019
+U 1 1 5EEE43E8
+P 5500 1775
+F 0 "#PWR019" H 5500 1525 50  0001 C CNN
+F 1 "GND" H 5505 1602 50  0000 C CNN
+F 2 "" H 5500 1775 50  0001 C CNN
+F 3 "" H 5500 1775 50  0001 C CNN
+	1    5500 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1310 5500 1360
+$Comp
+L Distorsion1-rescue:R-Device R10
+U 1 1 5EEE103C
+P 5500 1510
+F 0 "R10" H 5430 1464 50  0000 R CNN
+F 1 "1K" H 5430 1555 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5430 1510 50  0001 C CNN
+F 3 "~" H 5500 1510 50  0001 C CNN
+	1    5500 1510
+	-1   0    0    1   
+$EndComp
+$Comp
+L Distorsion1-rescue:LED-Device D3
+U 1 1 5EEDE03A
+P 5500 1160
+F 0 "D3" V 5539 1042 50  0000 R CNN
+F 1 "ON" V 5448 1042 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 1160 50  0001 C CNN
+F 3 "~" H 5500 1160 50  0001 C CNN
+	1    5500 1160
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Distorsion1-rescue:+6V-power #PWR017
+U 1 1 5EDA13BF
+P 4840 975
+F 0 "#PWR017" H 4840 825 50  0001 C CNN
+F 1 "+6V" H 4855 1148 50  0000 C CNN
+F 2 "" H 4840 975 50  0001 C CNN
+F 3 "" H 4840 975 50  0001 C CNN
+	1    4840 975 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 1375 4475 1415
+Connection ~ 4475 1375
+Wire Wire Line
+	4840 1375 4840 975 
+Wire Wire Line
+	4475 1375 4840 1375
+Wire Wire Line
+	4475 970  4475 1030
+$Comp
+L Distorsion1-rescue:+12V-power #PWR014
+U 1 1 5ED9D85B
+P 4475 970
+F 0 "#PWR014" H 4475 820 50  0001 C CNN
+F 1 "+12V" H 4490 1143 50  0000 C CNN
+F 2 "" H 4475 970 50  0001 C CNN
+F 3 "" H 4475 970 50  0001 C CNN
+	1    4475 970 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 1775 4475 1715
+$Comp
+L Distorsion1-rescue:GND-power #PWR015
+U 1 1 5ED9C0B7
+P 4475 1775
+F 0 "#PWR015" H 4475 1525 50  0001 C CNN
+F 1 "GND" H 4480 1602 50  0000 C CNN
+F 2 "" H 4475 1775 50  0001 C CNN
+F 3 "" H 4475 1775 50  0001 C CNN
+	1    4475 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 1330 4475 1375
+$Comp
+L Distorsion1-rescue:R-Device R9
+U 1 1 5ED994B2
+P 4475 1565
+F 0 "R9" H 4545 1611 50  0000 L CNN
+F 1 "27K" H 4545 1520 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4405 1565 50  0001 C CNN
+F 3 "~" H 4475 1565 50  0001 C CNN
+	1    4475 1565
+	1    0    0    -1  
+$EndComp
+$Comp
+L Distorsion1-rescue:R-Device R8
+U 1 1 5ED98E74
+P 4475 1180
+F 0 "R8" H 4545 1226 50  0000 L CNN
+F 1 "27K" H 4545 1135 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4405 1180 50  0001 C CNN
+F 3 "~" H 4475 1180 50  0001 C CNN
+	1    4475 1180
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
